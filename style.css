@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+#section1 {
+  margin-top: .3vw;
+}
+
+#section2 {
+  height: 20vw;
+  background-color: rgb(98,201,208);
+  margin: 0;
+  padding: 10vw;
+}
+
+#section2 h2 {
+  margin-top: -8vw;
+  font-family: font2;
+  font-size: 6vw;
+  text-align: center;
+  color: white;
+}
+
+#section2 p {
+  margin-top: -4vw;
+  font-family: font1;
+  font-size: 4vw;
+  text-align: justify;
+  color: white;
+}
+
+#section3 h2 {
+  margin-top: -60vw;
+  font-family: font1;
+  font-size: 9vw;
+  text-align: center;
+  text-shadow: 2px 2px rgb(246,223,166);
+}
+
+#section4 {
+  margin-top: 52vw;
+}
+
+@font-face {
+  font-family: font1;
+  src: url(winkle.ttf);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(shorelines.otf);
+}
