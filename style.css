@@ -73,7 +73,7 @@ body {
 
 /*puppy*/
 #section4 {
-  margin-top: 19vw;
+  margin-top: 18vw;
 }
 
 #section4 p {
@@ -110,13 +110,34 @@ body {
   font-size: 6vw;
   text-align: center;
   color: white;
-  text-shadow: 2px 2px rgb(236,125,139);
+  text-shadow: 2px 2px rgb(61,180,110);
 }
 
 #quoteButton {
   margin-top: -25vw;
   width: 100%;
   height: auto;
+}
+
+/*playlist*/
+#section7 {
+  margin-top: -1vw;
+  height: 60vw;
+  background-color: pink;
+}
+
+#section7 h2 {
+  font-family: font2;
+  font-size: 6vw;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px rgb(236,125,139);
+}
+
+#section7 iframe {
+  border: 10px double white;
+  width: 30vw;
+  margin-left: 35vw;
 }
 
 @font-face {
