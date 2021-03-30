@@ -3,10 +3,21 @@ body {
   background-color: white;
 }
 
+/*bears*/
 #section1 {
-  margin-top: .3vw;
+
 }
 
+#section1 p {
+  margin-top: -8vw;
+  font-family: font3;
+  font-size: 2.5vw;
+  text-align: center;
+  color: yellow;
+  text-shadow: 3px 3px black;
+}
+
+/*welcome*/
 #section2 {
   height: 20vw;
   background-color: rgb(98,201,208);
@@ -30,16 +41,67 @@ body {
   color: white;
 }
 
+/*pond*/
+#section3 {
+  margin-top: 4vw;
+}
+
 #section3 h2 {
   margin-top: -60vw;
   font-family: font1;
   font-size: 9vw;
   text-align: center;
-  text-shadow: 2px 2px rgb(246,223,166);
+  text-shadow: 4px 4px rgb(246,223,166);
 }
 
+#section3 p {
+  margin-top: -8vw;
+  font-family: font1;
+  font-size: 2vw;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+#section3 textarea {
+  width: 50%;
+  resize: none;
+  margin-top: 2vw;
+  margin-left: 25vw;
+  border: 4px double rgb(255,166,0);
+}
+
+/*puppy*/
 #section4 {
-  margin-top: 52vw;
+  margin-top: 19vw;
+}
+
+#section4 p {
+  margin-top: -8vw;
+  font-family: font3;
+  font-size: 2.5vw;
+  text-align: center;
+  color: yellow;
+  text-shadow: 3px 3px black;
+}
+
+#section5 {
+  margin-top: 4vw;
+}
+
+/*flowers*/
+#section5 h2 {
+  margin-top: -67vw;
+  font-family: font2;
+  font-size: 6vw;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px rgb(221,129,86);
+}
+
+/*envelope*/
+#section6 {
+  margin-top: 53vw;
 }
 
 @font-face {
@@ -50,4 +112,9 @@ body {
 @font-face {
   font-family: font2;
   src: url(shorelines.otf);
+}
+
+@font-face {
+  font-family: font3;
+  src: url(italic.otf);
 }
