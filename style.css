@@ -101,7 +101,22 @@ body {
 
 /*envelope*/
 #section6 {
+  background-color: rgb(186,218,156);
   margin-top: 53vw;
+}
+
+#section6 h2 {
+  font-family: font2;
+  font-size: 6vw;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px rgb(236,125,139);
+}
+
+#quoteButton {
+  margin-top: -25vw;
+  width: 100%;
+  height: auto;
 }
 
 @font-face {
